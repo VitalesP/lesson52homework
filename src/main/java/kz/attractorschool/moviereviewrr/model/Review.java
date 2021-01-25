@@ -26,6 +26,7 @@ public class Review {
     @Indexed
     private int stars;
 
+    @Indexed
     private String review;
 
     @DBRef
